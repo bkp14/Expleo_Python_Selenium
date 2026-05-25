@@ -70,3 +70,52 @@ age =12
 print("hi",name)
 print(f"hi {name} my age is {age}")
 print("apple","orange","banana",sep="88",end=".\n")
+
+def add(a,b):
+    return a+b
+a = int(input("enter a number"))
+b = int(input("enter a number"))
+result = add(a,b)
+print(result)
+
+text="welcome"
+print(text[5])
+
+greet ="welcome"
+for i in "welcome":
+    print(i)
+
+    
+print(greet)
+del greet
+print(greet)
+
+i=0
+while(i<len("welcome")):
+    print("welcome"[i])
+    i+=1
+
+text="hello"
+if("hel" not in text):
+    print(True)
+else:
+    print(False)    
+print(text[4::-1])
+
+print("sello"+"sello"[::-1])
+
+text="hello, wOrld!".lower()
+print(text.count('or'))
+print("j"+text[7:])
+print("j"+text[-6:-1])
+
+word = 'good day'
+index = word.find("o",3)
+print(index)
+print(word.replace(word[0],"d"))
+
+n= input("enter")
+if(n.__eq__ (n[::-1])):
+    print(True)
+else:
+    print(False)
