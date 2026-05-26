@@ -1,0 +1,12 @@
+set1 = set([1,2,3,4])
+print(set1)
+set2 = {1,2,(3,4)}
+print(set2)
+set2.pop()
+print(set2)
+set2.pop()
+print(set2)
+set1.update({566,6,9},[76,89])
+set1.remove(566)
+set1.discard(76)
+print(set1)
