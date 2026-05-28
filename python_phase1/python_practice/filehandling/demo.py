@@ -1,0 +1,6 @@
+myobject = open("myfile.txt","r+")
+myobject.write("Hey i STARTED using files in PYTHON\n")
+myobject.seek(0)
+content =myobject.read()
+myobject.close()
+print(len(content))
